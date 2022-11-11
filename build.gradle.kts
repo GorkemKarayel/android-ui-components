@@ -3,20 +3,21 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        gradlePluginPortal()
     }
 
     dependencies {
         classpath(Plugins.androidGradlePlugin)
         classpath(Plugins.kotlinGradlePlugin)
-        classpath(Plugins.mavenGradlePlugin)
     }
 }
 
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        gradlePluginPortal()
         maven("https://jitpack.io")
     }
 }

@@ -1,4 +1,4 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.graphics.Color
 import android.os.Bundle
@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.text.bold
 import androidx.core.text.color
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.dialogs.*
 
 class DialogsActivity : AppCompatActivity() {

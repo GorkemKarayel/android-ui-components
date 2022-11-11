@@ -5,13 +5,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion(Configs.compileSdkVersion)
-    buildToolsVersion(Configs.buildToolsVersion)
+    compileSdk = Configs.compileSdkVersion
 
     defaultConfig {
         applicationId = Configs.applicationId
-        minSdkVersion(Configs.minSdkVersion)
-        targetSdkVersion(Configs.targetSdkVersion)
+        minSdk = Configs.minSdkVersion
+        targetSdk = Configs.targetSdkVersion
         versionCode = 1
         versionName = "1.0"
     }
@@ -28,10 +27,14 @@ android {
     }
 
     dataBinding.isEnabled = true
+    buildFeatures.compose = true
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.3.2"
+    }
 }
 
 dependencies {
-    implementation(project(Components.ratingBar))
+    api(project(Components.ratingBar))
     implementation(project(Components.dialogs))
     implementation(project(Components.imageSlider))
     implementation(project(Components.phoneNumber))
@@ -42,10 +45,11 @@ dependencies {
     implementation(project(Components.timelineView))
     implementation(project(Components.fitOptionMessageView))
 
-    implementation(Dependencies.kotlinJDK)
     implementation(Dependencies.appCompat)
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.material)
     implementation(Dependencies.constraintLayout)
     implementation(Dependencies.glide)
+    implementation(Dependencies.composeActivity)
+    implementation(Dependencies.composeUi)
 }

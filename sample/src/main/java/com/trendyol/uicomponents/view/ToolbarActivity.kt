@@ -1,8 +1,9 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.toolbar.Toolbar
 import com.trendyol.uicomponents.toolbar.ToolbarViewState
 

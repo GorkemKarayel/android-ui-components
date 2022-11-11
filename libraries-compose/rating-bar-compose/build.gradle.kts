@@ -1,20 +1,18 @@
 plugins {
     id(Plugins.androidLibrary)
     id(Plugins.kotlinAndroid)
-    id(Plugins.kotlinParcelize)
-    id(Plugins.kotlinKapt)
        
 }
 
 group = Configs.group
-version = ComponentVersions.phoneNumberVersion
+version = ComponentVersions.ratingBarVersion
 
 android {
-    compileSdkVersion(Configs.compileSdkVersion)
+    compileSdk = Configs.compileSdkVersion
 
     defaultConfig {
-        minSdkVersion(Configs.minSdkVersion)
-        targetSdkVersion(Configs.targetSdkVersion)
+        minSdk = Configs.minSdkVersion
+        targetSdk = Configs.targetSdkVersion
         vectorDrawables.useSupportLibrary = true
 
         consumerProguardFiles("consumer-rules.pro")
@@ -30,13 +28,15 @@ android {
             )
         }
     }
-
-    dataBinding.isEnabled = true
+    buildFeatures.compose = true
+    composeOptions {
+        kotlinCompilerExtensionVersion = Configs.compilerExtensionVersion
+    }
 }
 
 dependencies {
-     
-    implementation(Dependencies.appCompat)
     implementation(Dependencies.coreKtx)
-    implementation(Dependencies.material)
+    implementation(Dependencies.composeUi)
+    implementation(Dependencies.composeMaterial)
+    implementation(Dependencies.composeUiToolingPreview)
 }

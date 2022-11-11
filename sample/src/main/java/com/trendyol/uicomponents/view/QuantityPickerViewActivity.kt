@@ -1,9 +1,10 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.trendyol.uicomponents.*
 import com.trendyol.uicomponents.quantitypickerview.QuantityPickerView
 import com.trendyol.uicomponents.quantitypickerview.QuantityPickerViewState
 

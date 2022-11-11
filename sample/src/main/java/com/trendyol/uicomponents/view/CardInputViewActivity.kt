@@ -1,4 +1,4 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.graphics.Color
 import android.graphics.drawable.Drawable
@@ -12,6 +12,7 @@ import com.trendyol.cardinputview.CardInformation
 import com.trendyol.cardinputview.CardInputView
 import com.trendyol.cardinputview.CardInputViewState
 import com.trendyol.cardinputview.CreditCardType
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.dialogs.infoDialog
 import com.trendyol.uicomponents.dialogs.selectionDialog
 

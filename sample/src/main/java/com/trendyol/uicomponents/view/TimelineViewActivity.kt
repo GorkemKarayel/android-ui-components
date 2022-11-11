@@ -1,9 +1,10 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.trendyol.timelineview.TimelineItem
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.databinding.ActivityTimelineViewBinding
 
 class TimelineViewActivity : AppCompatActivity() {

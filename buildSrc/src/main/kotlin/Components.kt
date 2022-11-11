@@ -12,4 +12,6 @@ object Components {
     const val touchDelegator = ":libraries:touch-delegator"
     const val fitOptionMessageView = ":libraries:fit-option-message-view"
 
+    // Compose
+    const val ratingBarCompose = ":libraries-compose:rating-bar-compose"
 }

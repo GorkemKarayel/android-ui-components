@@ -10,5 +10,7 @@ include(":libraries:quantity-picker-view")
 include(":libraries:timeline-view")
 include(":libraries:touch-delegator")
 include(":libraries:fit-option-message-view")
+// Compose
+include(":libraries-compose:rating-bar-compose")
 
 rootProject.name = "UI Components"

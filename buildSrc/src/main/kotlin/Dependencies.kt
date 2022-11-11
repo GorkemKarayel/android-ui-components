@@ -1,7 +1,5 @@
 object Dependencies {
 
-    const val kotlinJDK = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61"
-
     const val coreKtx = "androidx.core:core-ktx:1.3.2"
     const val appCompat = "androidx.appcompat:appcompat:1.2.0"
     const val material = "com.google.android.material:material:1.4.0"
@@ -12,4 +10,9 @@ object Dependencies {
     const val glideCompiler = "com.github.bumptech.glide:compiler:4.11.0"
     const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:2.1.0"
     const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:2.1.0"
+
+    const val composeActivity = "androidx.activity:activity-compose:1.6.0"
+    const val composeUi = "androidx.compose.ui:ui:1.2.1"
+    const val composeUiToolingPreview = "androidx.compose.ui:ui-tooling-preview:1.2.1"
+    const val composeMaterial = "androidx.compose.material:material:1.2.1"
 }

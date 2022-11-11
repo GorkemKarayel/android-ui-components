@@ -13,25 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RatingBarActivity" />
-        <activity android:name=".DialogsActivity"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
-        <activity android:name=".ImageSliderActivity" />
-        <activity android:name=".PhoneNumberActivity" />
-        <activity android:name=".ToolbarActivity" />
-        <activity android:name=".SuggestionInputViewActivity" />
-        <activity android:name=".CardInputViewActivity" />
-        <activity android:name=".QuantityPickerViewActivity" />
-        <activity android:name=".TimelineViewActivity"/>
-        <activity android:name=".FitOptionMessageViewActivity"/>
+        <activity android:name=".view.RatingBarActivity" />
+        <activity
+            android:name=".view.DialogsActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".view.ImageSliderActivity" />
+        <activity android:name=".view.PhoneNumberActivity" />
+        <activity android:name=".view.ToolbarActivity" />
+        <activity android:name=".view.SuggestionInputViewActivity" />
+        <activity android:name=".view.CardInputViewActivity" />
+        <activity android:name=".view.QuantityPickerViewActivity" />
+        <activity android:name=".view.TimelineViewActivity" />
+        <activity android:name=".view.FitOptionMessageViewActivity" />
 
     </application>
 

@@ -5,7 +5,7 @@ plugins {
     id(Plugins.kotlinAndroid)
     id(Plugins.kotlinParcelize)
     id(Plugins.kotlinKapt)
-    id(Plugins.androidMaven)
+       
 }
 
 group = Configs.group
@@ -13,7 +13,6 @@ version = ComponentVersions.dialogsVersion
 
 android {
     compileSdkVersion(Configs.compileSdkVersion)
-    buildToolsVersion(Configs.buildToolsVersion)
 
     defaultConfig {
         minSdkVersion(Configs.minSdkVersion)
@@ -41,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation(Dependencies.kotlinJDK)
+     
     implementation(Dependencies.appCompat)
     implementation(Dependencies.coreKtx)
     implementation(Dependencies.material)

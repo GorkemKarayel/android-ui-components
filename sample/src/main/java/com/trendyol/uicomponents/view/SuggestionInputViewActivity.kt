@@ -1,4 +1,4 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import com.trendyol.suggestioninputview.Rule
 import com.trendyol.suggestioninputview.SuggestionInputItem
 import com.trendyol.suggestioninputview.SuggestionItemType
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.databinding.ActivitySuggestionInputBinding
 
 class SuggestionInputViewActivity : AppCompatActivity() {

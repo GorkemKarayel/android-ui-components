@@ -33,6 +33,7 @@ object RuleValidator {
                         valid = false
                     }
                 }
+                else -> {}
             }
         }
         return Pair(valid, invalidRule)

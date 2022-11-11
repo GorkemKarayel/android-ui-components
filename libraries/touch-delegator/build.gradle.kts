@@ -2,7 +2,7 @@ plugins {
     id(Plugins.androidLibrary)
     id(Plugins.kotlinAndroid)
     id(Plugins.kotlinKapt)
-    id(Plugins.androidMaven)
+       
 }
 
 group = Configs.group
@@ -10,7 +10,6 @@ version = ComponentVersions.touchDelegatorVersion
 
 android {
     compileSdkVersion(Configs.compileSdkVersion)
-    buildToolsVersion(Configs.buildToolsVersion)
 
     defaultConfig {
         minSdkVersion(Configs.minSdkVersion)

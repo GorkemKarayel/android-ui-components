@@ -1,9 +1,10 @@
-package com.trendyol.uicomponents
+package com.trendyol.uicomponents.view
 
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.trendyol.uicomponents.R
 import com.trendyol.uicomponents.databinding.ActivityImageSliderBinding
 import com.trendyol.uicomponents.imageslider.ImageSliderViewState
 

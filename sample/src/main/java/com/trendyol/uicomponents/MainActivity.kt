@@ -4,6 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.trendyol.uicomponents.compose.RatingBarComposeActivity
+import com.trendyol.uicomponents.view.*
 
 class MainActivity : AppCompatActivity() {
 
